@@ -1,0 +1,6 @@
+_ = input()
+nums = list(map(int, input().split()))
+nums.sort()
+mini = int(nums[0])
+maxi = int(nums.pop())
+print(mini * maxi)
